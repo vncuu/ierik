@@ -43,12 +43,10 @@
             align-items: flex-start; /* Move items to the top */
             height: 100vh;
             margin: 0;
-            flex-direction: column;
-            padding: 0 20px;
         }
         .container {
             text-align: center;
-            margin-top: 50px; /* Decreased margin-top for better fit on small screens */
+            margin-top: 320px; /* Increase margin-top to move content further down */
         }
         .social-btn {
             display: flex;
@@ -63,8 +61,7 @@
             cursor: pointer;
             border-radius: 8px;
             text-decoration: none;
-            width: 100%;
-            max-width: 250px;
+            width: 250px;
             justify-content: center;
         }
         .social-btn img {
@@ -75,24 +72,6 @@
         h1 {
             font-family: 'BRFont', sans-serif;
             color: black;
-        }
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .container {
-                margin-top: 30px; /* Reduce top margin on smaller screens */
-            }
-            .social-btn {
-                font-size: 16px; /* Decrease font size on smaller screens */
-                padding: 8px 16px; /* Adjust padding for better fit */
-                width: 90%;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .social-btn {
-                font-size: 14px; /* Smaller font size for very small screens */
-                padding: 6px 12px; /* Adjust padding for very small screens */
-            }
         }
     </style>
 </head>
